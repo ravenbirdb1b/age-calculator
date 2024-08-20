@@ -1,0 +1,19 @@
+@import "variables";
+
+.App {
+  padding: 0px;
+  margin: 0px;
+  background-color: $offWhite;
+  height: 100vh;
+  width: 100vw;
+  font-family: poppinsBold;
+
+  .age-calculator-wrapper {
+    margin: 0px 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 16px 16px 80px 16px;
+    background-color: white;
+    padding: 2rem 1.5rem;
+  }
+}

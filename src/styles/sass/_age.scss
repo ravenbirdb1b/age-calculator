@@ -1,0 +1,14 @@
+.age-info {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 48px;
+  .age-timer-wrapper {
+    display: flex;
+    gap: 12px;
+    line-height: 1.2;
+    .age-timer {
+      color: $purple;
+    }
+  }
+}
